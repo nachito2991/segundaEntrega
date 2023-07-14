@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.min.css">
+     <link rel="stylesheet" href="./style.css">
+     <link rel="stylesheet" href="./misCompras.html">
+    
+    <title>Tienda Virtual</title>
+</head>
+<body>
+
+<header>
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Tienda Hostel</a>
+
+      <button id="mis-compras" type="button" class="btn btn-warning">Mis 
+      Compras</button>
+      <button id="borrar-compras" class="btn btn-danger">Borrar Compras.</button>
+    </div>
+  </nav>
+</header>
+<br><br><br>
+
+<div class="conteiner">
+  <div class="row">
+    <main id="items" class=" col-sm-8 row"></main>
+
+    <aside class="col-sm-2">
+
+      <h2>Carrito</h2>
+      <ul id="carrito" class="list-group"></ul>
+      <br>
+      <p class="total-compra">Total: <span id="total"></span></p>
+      <button id = "boton-comprar" type="button" class="btn btn-success">Realizar Pago</button> <br> <br>
+
+      <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+
+      <br><br>
+
+      
+    </aside>
+  </div>
+</div>
+
+
+
+
+
+</body>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.min.js"></script>
+
+<script src="./pre-entrega2.js"></script>
